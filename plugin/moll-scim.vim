@@ -6,7 +6,7 @@ if exists('g:loaded_moll-scim') | finish | endif
 let s:save_cpo = &cpo
 set cpo&vim
 
-let g:loaded_moll-scim = 1
+let g:loaded_moll_scim = 1
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
